@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A8B72DC8-10E9-A9B2-CF81-15718BF1DFF1}</ProjectGuid>
+    <ProjectGuid>{5CB27D66-8C6D-5C0D-6548-67DFB8DF990E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,39 +51,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GrayFX\GrayFX.cs" />
-     <None Include="Assets\Mask\MaskFX.shader" />
-     <None Include="Assets\GrayFX\GrayFX.shader" />
-     <None Include="Assets\OneColor\OneColorFX.shader" />
+     <Compile Include="Assets\BanBan\MyShader\GrayMask\GrayMaskFX.cs" />
+     <Compile Include="Assets\BanBan\MyShader\MotionBlur\MotionBlurFX.cs" />
+     <None Include="Assets\BanBan\MyShader\MotionBlur\MotionBlurFX.shader" />
+     <None Include="Assets\BanBan\MyShader\GrayMask\GrayMaskFX.shader" />
  <Reference Include="com.unity.render-pipelines.core.Editor">
- <HintPath>C:/Users/boki2016/Documents/TEST_PROJECT/Library/ScriptAssemblies/com.unity.render-pipelines.core.Editor.dll</HintPath>
+ <HintPath>C:/Users/boki2016/Desktop/UnityProject/GitTest/ShaderCollection/Library/ScriptAssemblies/com.unity.render-pipelines.core.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.render-pipelines.core.Runtime">
- <HintPath>C:/Users/boki2016/Documents/TEST_PROJECT/Library/ScriptAssemblies/com.unity.render-pipelines.core.Runtime.dll</HintPath>
+ <HintPath>C:/Users/boki2016/Desktop/UnityProject/GitTest/ShaderCollection/Library/ScriptAssemblies/com.unity.render-pipelines.core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/boki2016/Documents/TEST_PROJECT/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/boki2016/Desktop/UnityProject/GitTest/ShaderCollection/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.render-pipelines.lightweight.Runtime">
- <HintPath>C:/Users/boki2016/Documents/TEST_PROJECT/Library/ScriptAssemblies/com.unity.render-pipelines.lightweight.Runtime.dll</HintPath>
+ <HintPath>C:/Users/boki2016/Desktop/UnityProject/GitTest/ShaderCollection/Library/ScriptAssemblies/com.unity.render-pipelines.lightweight.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.render-pipelines.lightweight.Editor">
- <HintPath>C:/Users/boki2016/Documents/TEST_PROJECT/Library/ScriptAssemblies/com.unity.render-pipelines.lightweight.Editor.dll</HintPath>
+ <HintPath>C:/Users/boki2016/Desktop/UnityProject/GitTest/ShaderCollection/Library/ScriptAssemblies/com.unity.render-pipelines.lightweight.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/boki2016/Documents/TEST_PROJECT/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/boki2016/Desktop/UnityProject/GitTest/ShaderCollection/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.postprocessing.Editor">
- <HintPath>C:/Users/boki2016/Documents/TEST_PROJECT/Library/ScriptAssemblies/com.unity.postprocessing.Editor.dll</HintPath>
+ <HintPath>C:/Users/boki2016/Desktop/UnityProject/GitTest/ShaderCollection/Library/ScriptAssemblies/com.unity.postprocessing.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.postprocessing.Runtime">
- <HintPath>C:/Users/boki2016/Documents/TEST_PROJECT/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll</HintPath>
+ <HintPath>C:/Users/boki2016/Desktop/UnityProject/GitTest/ShaderCollection/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
- <HintPath>C:/Users/boki2016/Documents/TEST_PROJECT/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ <HintPath>C:/Users/boki2016/Desktop/UnityProject/GitTest/ShaderCollection/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.render-pipelines.core.IncludePaths">
- <HintPath>C:/Users/boki2016/Documents/TEST_PROJECT/Library/ScriptAssemblies/com.unity.render-pipelines.core.IncludePaths.dll</HintPath>
+ <HintPath>C:/Users/boki2016/Desktop/UnityProject/GitTest/ShaderCollection/Library/ScriptAssemblies/com.unity.render-pipelines.core.IncludePaths.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
